@@ -1,0 +1,21 @@
+{
+  "name": "express-sequelize",
+  "version": "1.0.0",
+  "description": "Express REST API using Sequelize with MySQL",
+  "main": "index.js",
+  "author": "rahmatrians",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "fly": "nodemon index.js"
+  }
+}
